@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VDP-Solutions-contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="vendors/css/fluid.css">
+    <link rel="stylesheet" href="resources/css/contactstyle.css">
+    <link rel="icon" href="resources/img/logo.jpg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="row">
+                <img src="resources/img/logo.jpg" alt="VDP-logo" class="vdp-logo">
+            <nav class="nav-menu" >
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="service.html" target="_blank">SERVICES</a></li>
+                    <li><a href="showcase.html" target="_blank">SHOWCASE</a></li>
+                    <li><a href="contact.html" class="home-btn">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header><hr>
+
+    <section class="contact-section">
+        <div class="contact-header">
+            <h3>CONNECT WITH US<br>24/7</h3>
+            <p>We would like to respond to your queries and help you succeed. Feel free to get in touch with us.</p>
+        </div>
+        
+        <div class="row">
+            <div class="col span_1_of_2 contact-left">
+                <h4>Reach Us</h4>
+                <div class="contact-subleft">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h2>Address<br><p>#48, 8th cross, Kempegowda Nagar<br>
+                        Sunkadakatte, Magadi Main Road<br>
+                        Bengaluru-560091.</p></h2>
+                </div>
+
+                <div class="contact-subleft">
+                    <i class="fas fa-envelope"></i>
+                    <h2>Email<br><p>vdpsoloutions@gmail.com<br>jahirathujunction@gmail.com</p></h2>
+                   
+                </div>
+
+                <div class="contact-subleft">
+                    <i class="fas fa-phone-alt"></i>
+                    <h2>Phone<br><p>+91 9535420321<br>+91 8073090131</p></h2>
+                </div>
+
+            </div>
+            <div class="col span_1_of_2 contact-right">
+                <form method="POST" action="php/connect.php" class="contact-form">
+                    <div class="row">
+                        <div class="col span_1_of_2">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span_1_of_2">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                    </div>
+            
+                    <div class="row">
+                        <div class="col span_1_of_2">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span_1_of_2">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col span_1_of_2">
+                            <label for="number"> Mobile Number</label>
+                        </div>
+                        <div class="col span_1_of_2">
+                            <input type="number" id="number" name="mobilenumber" placeholder="Your Mobile Number" required>
+                        </div>
+                    </div>
+            
+                    <div class="row">
+                        <div class="col span_1_of_2">
+                            <label for="message">Drop Your Message</label>
+                        </div>
+                        <div class="col span_1_of_2">
+                            <textarea id="message" name="message" placeholder="Your Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span_1_of_2">
+                            <button type="submit" class="btn-full" onclick="sumbit">Send It!</button>
+                        </div>
+                    </div>
+                </form>
+    
+            </div>
+        </div>
+    </section><hr>
+
+    <footer>
+        <div class="row">
+            <div class="col span_1_of_1 foot"></div>
+                <a href="#"><img src="resources/img/logo.jpg"></a>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+    
+                <div class="footer-bottomhead">
+                    <h5>Privacy & Policy</h5>
+                    <h5>Terms & Conditions</h5>
+                    <h5>@ VDP solutions</h5>
+                    <h5>ಜಾಹೀರಾತು ಜಂಕ್ಷನ್</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/+919535420321" class="whatsapp_float" target="_blank"> <i class="fab fa-whatsapp"></i></a>
+       
+</body>
+</html>
