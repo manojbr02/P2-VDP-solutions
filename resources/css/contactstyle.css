@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    background-color:#efefef;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Catamaran', sans-serif;
+    color: black;
+    text-rendering: optimizeLegibility;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)) ,url(../img/back-img.jpg); 
+    background-attachment: fixed; 
+    background-size: cover;
+}
+/******** header *****/
+.vdp-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 47px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.nav-menu{
+    float: right;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.nav-menu ul li{
+    display: inline-block;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: #000;
+    margin: 30px;
+    transition: .2s;
+}
+.nav-menu ul li a:hover{
+    border-bottom: 3px solid indigo;
+}
+.home-btn{
+    border-bottom: 3px solid blueviolet;
+}
+
+/********contact-section****/
+.contact-header{
+    text-align: center;
+}
+.contact-header h3{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.contact-header p{
+    font-size: 20px;
+}
+.contact-left{
+    margin-top: 30px;
+}
+.contact-left h4{
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.contact-subleft{
+    display: flex;
+    margin-bottom: 40px;
+}
+.contact-subleft i{
+    font-size: 50px;
+    margin-left: 20px;
+    margin-right: 30px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 50px;
+}
+.contact-subleft h2{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-right: 10px;
+    color: indigo;
+}
+.contact-subleft p{
+    color: black;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.contact-right{
+    background-color: #fcfcfc;
+    margin-top: 70px;
+    padding: 30px;
+    line-height: 2;
+    width: 40%;
+}
+.contact-right label{
+    font-size: 18px;
+    font-weight: 400;
+}
+.contact-right input{
+    width: 80%;
+    border-right: 0; border-top: 0; border-left: 0;
+    outline: none;
+    padding-bottom: 10px;
+}
+.contact-right textarea{
+    width: 80%;
+    border-right: 0; border-top: 0; border-left: 0;
+    outline: none;
+    padding-bottom: 30px;
+}
+.btn-full{
+    cursor: pointer;
+    border: 2px solid #efefef;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 25px;
+    float: right;
+}
+.btn-full:hover{
+    background-color:indigo;
+    color: #fff;
+}
+
+/*** footer-section****/
+footer{
+    margin-top: -10px;
+    background-color: dimgrey;
+    height: 15vh;
+}
+footer a img{
+    width: 80px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.social-links{
+    text-align: right;
+    margin-top: -60px;
+    margin-right: 50px;
+
+}
+.social-links a{
+    font-size: 30px;
+    color: #fff;
+    padding: 10px;
+}
+.footer-bottomhead{
+    margin-left: 200px;
+}
+.footer-bottomhead h5{
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 900;
+    color: #fff;
+    margin-right: 10px;
+    
+}
+
+/******for whatsapp section****/
+
+.whatsapp_float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size: 30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.fab {
+	margin-top: 15px;
+}
+

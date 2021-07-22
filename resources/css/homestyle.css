@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    background-color:#efefef;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Catamaran', sans-serif;
+    color: black;
+    text-rendering: optimizeLegibility;
+    margin: 10px;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)) ,url(../img/back-img.jpg); 
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+/******** header *****/
+.vdp-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 47px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.nav-menu{
+    float: right;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+.nav-menu ul li{
+    display: inline-block;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: #000;
+    margin: 30px;
+    transition: .2s;
+}
+.nav-menu ul li a:hover{
+    border-bottom: 3px solid indigo;
+}
+.home-btn{
+    border-bottom: 3px solid blueviolet;
+}
+
+/**** slider-section*****/
+.slider{
+    margin: auto;
+    width: 100%;
+    height: 77vh;
+    overflow: hidden;
+}
+
+.slider figure div{
+    float: left;
+    display: flex;
+    width: 100%;
+}
+
+.slider figure .slide img{
+    float: left;
+    width: 100%;
+}
+
+.slider figure{
+    position: relative;
+    width: 100%;
+    margin: 0%;
+    left: 0%;
+    animation: 8s manu infinite;
+    animation-delay: -2s;
+}
+
+@keyframes manu{
+    0%{left: 0;}
+    20%{left: 0;}
+    25%{left: -100%;}
+    45%{left: -100%;}
+    50%{left: -200%;}
+    70%{left: -200%;}
+    75%{left: -300%;}
+    95%{left: -300%;}
+    100%{left: -400%;}
+}
+/******about section***/
+.about-section{
+    margin-top: 70px;
+    background-color: #fcfcfc;
+    padding: 40px;
+}
+.row h3{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.row p{
+    font-size: 20px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.5;
+}
+/****services-section*****/
+.service-section{
+    margin-top: 30px;
+    padding: 40px;
+}
+.service-box{
+    background-color: #fcfcfc;
+    width: 15%;
+    height: 30vh;
+    border-radius: 10px;
+    margin-left: 170px;
+}
+.service-box:hover{
+    box-shadow: 1px 1px 10px white;
+}
+.service-box h4{
+    text-align: center;
+    margin:30px ;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.service-box a{
+    text-decoration: none;
+    margin-left: 50px;
+}
+.service-box i{
+    font-size: 60px;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+/***** contact-section****/
+.contact-section{
+    width: auto;
+    height: 40vh;
+}
+.contact-section h1{
+    font-size: 40px;
+    font-weight: 400;
+    margin-left: 50px;
+}
+.contact-section h2{
+    font-size: 25px;
+    margin-left: 200px;
+    line-height: 2;
+}
+.contact-tab{
+    display: inline-flex;
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #555;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.email-sec{
+    text-align: center;
+    margin-left: 100px;
+}
+.live-sec{
+    text-align: center;
+    margin-left: 300px;
+}
+.btn-full{
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 0 20px;
+}
+.contact-tab a:hover{
+    color: white;
+}
+
+
+/*** footer-section****/
+footer{
+    background-color: dimgrey;
+    height: 15vh;
+}
+footer a img{
+    width: 80px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.social-links{
+    text-align: right;
+    margin-top: -60px;
+    margin-right: 80px;
+
+}
+.social-links a{
+    font-size: 30px;
+    color: #fff;
+    padding: 10px;
+}
+.footer-bottomhead{
+    margin-left: 200px;
+}
+.footer-bottomhead h5{
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 900;
+    color: #fff;
+    margin-right: 10px;
+}
+
+/******for whatsapp section****/
+
+.whatsapp_float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size: 30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.fab {
+	margin-top: 15px;
+}

@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    background-color:#efefef;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Catamaran', sans-serif;
+    color: black;
+    text-rendering: optimizeLegibility;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)) ,url(../img/back-img.jpg); 
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+/******** header *****/
+.vdp-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 47px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.nav-menu{
+    float: right;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.nav-menu ul li{
+    display: inline-block;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: #000;
+    margin: 30px;
+    transition: .2s;
+}
+.nav-menu ul li a:hover{
+    border-bottom: 3px solid indigo;
+}
+.home-btn{
+    border-bottom: 3px solid blueviolet;
+}
+
+/**** midle-section****/
+.middle-section{
+    display: inline-flex;
+}
+.middle-img{
+    width: 45%;
+    height: 45%;
+    float: left;
+    margin-left: 15px;
+}
+.middle-para{
+    margin-left: 30px;
+    display: block;
+    line-height: 2;
+    text-align: justify;
+}
+.middle-para span{
+    font-size: 25px;
+}
+/***** service-section****/
+.service-section{
+    margin: 30px 50px 0 50px;
+}
+.service-section h3{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sevice-sub-section h4{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 2;
+}
+.sevice-sub-section p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+    line-height: 1.5;
+    margin: 10px 10px;
+}
+.sevice-sub-section a{
+    margin-left: 1000px;
+    margin-top: 100px;
+}
+.btn-full{
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 3px 20px;
+}
+.btn-full:hover{
+    background-color: indigo;
+    color: white;
+}
+.sevice-sub-section i{
+    font-size: 60px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.middle-para{
+    margin-right: 15px;
+}
+
+/*** footer-section****/
+footer{
+    background-color: dimgrey;
+    height: 15vh;
+    margin-top: 20px;
+}
+footer a img{
+    width: 80px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.social-links{
+    text-align: right;
+    margin-top: -60px;
+    margin-right: 50px;
+
+}
+.social-links a{
+    font-size: 30px;
+    color: #fff;
+    padding: 10px;
+}
+.footer-bottomhead{
+    margin-left: 200px;
+}
+.footer-bottomhead h5{
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 900;
+    color: #fff;
+    margin-right: 10px;
+    
+}
+
+/******for whatsapp section****/
+
+.whatsapp_float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size: 30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.fab {
+	margin-top: 15px;
+}

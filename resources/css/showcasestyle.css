@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    background-color:#efefef;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Catamaran', sans-serif;
+    color: black;
+    text-rendering: optimizeLegibility;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)) ,url(../img/back-img.jpg); 
+    background-attachment: fixed; 
+    background-size: cover;
+}
+/******** header *****/
+.vdp-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 47px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.nav-menu{
+    float: right;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.nav-menu ul li{
+    display: inline-block;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: #000;
+    margin: 30px;
+    transition: .2s;
+}
+.nav-menu ul li a:hover{
+    border-bottom: 3px solid indigo;
+}
+.home-btn{
+    border-bottom: 3px solid blueviolet;
+}
+
+.service-box img{
+    margin-left: 20px;
+}
+
+
+h3{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.product{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+h2{
+    font-size: 35px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#efefef;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+.btn {
+    padding: 10px 25px;
+    border-radius: 0;
+    margin-left: 70%;
+    cursor: pointer;
+}
+
+.btn-big {
+    padding: 7px 20px;
+    font-size: 1.2rem;
+}
+
+.btn-primary {
+    background-color: #efefef;
+    color: black;
+    border: 0;
+}
+
+.btn-primary:hover {
+    background-color: indigo;
+    color: #efefef;
+}
+
+
+/*** footer-section****/
+footer{
+    background-color: dimgrey;
+    height: 15vh;
+}
+footer a img{
+    width: 80px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.social-links{
+    text-align: right;
+    margin-top: -60px;
+    margin-right: 50px;
+
+}
+.social-links a{
+    font-size: 30px;
+    color: #fff;
+    padding: 10px;
+}
+.footer-bottomhead{
+    margin-left: 200px;
+}
+.footer-bottomhead h5{
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 900;
+    color: #fff;
+    margin-right: 10px;
+    
+}
+
+
+/******for whatsapp section****/
+
+.whatsapp_float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size: 30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.fab {
+	margin-top: 15px;
+}
